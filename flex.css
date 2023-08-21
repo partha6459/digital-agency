@@ -1,0 +1,27 @@
+.pointer{
+    cursor: pointer;
+}
+.parent{
+    display: flex;
+}
+.child1{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 50px;
+    color: white;
+    background: green;
+}
+.child2{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 50px;
+    color: white;
+    background: red;
+}
+.child3{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 50px;
+    color: white;
+    background: blueviolet;
+}
