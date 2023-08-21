@@ -79,11 +79,11 @@
 
 .Service-container{
     width: 100%;
-    height: 100vh;
+    height: 750px;
     padding: 20px;
     background-image: url(../asset/image/footer-bg.png), linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
     background-blend-mode: overlay;
-    display: flex;    
+    display: flex;  
 }
 
 .service-btn{
@@ -98,7 +98,7 @@
     border-radius: 50px;
 }
 .service-title{
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     padding: 10px;
     color: white;
@@ -158,11 +158,57 @@
 .web-graphic{
     display: flex;
     color: white;
-}
-.web-dev{
-    background-image: url(../asset/icons/coding.png);
+    padding: 10px;
 }
 .seo-digital{
     display: flex;
     color: white;
+    padding: 10px;
+}
+.web-dev{
+    margin-left: 10px;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+}
+.service-logo{
+    width: 70%;
+    padding-bottom: 20px;
+}
+.graphic-desgn{
+    margin-left: 10px;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+}
+.seo-content{
+    margin-left: 10px;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+}
+.digital-marketing{
+    margin-left: 10px;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+}
+.right-container{
+    margin-left: 160px;
 }
