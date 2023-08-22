@@ -31,6 +31,7 @@
     width: 100%;
     height: 100vh;
     background-position: center;
+    background-repeat: no-repeat;
     background-image: url("../asset/image/background.jpg"), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
     background-blend-mode: overlay;
     display: flex;
@@ -78,10 +79,10 @@
 /* Left Side */
 
 .Service-container{
-    width: 100%;
+    width: 97%;
     height: 750px;
     padding: 20px;
-    background-image: url(../asset/image/footer-bg.png), linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+    background-image: url(../asset/image/footer-bg.png), linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
     background-blend-mode: overlay;
     display: flex;  
 }
@@ -166,7 +167,6 @@
     padding: 10px;
 }
 .web-dev{
-    margin-left: 10px;
     padding: 50px;
     width: 200px;
     height: 200px;
@@ -180,7 +180,7 @@
     padding-bottom: 20px;
 }
 .graphic-desgn{
-    margin-left: 10px;
+    margin-left: 17px;
     padding: 50px;
     width: 200px;
     height: 200px;
@@ -190,7 +190,6 @@
     border-radius: 10px;
 }
 .seo-content{
-    margin-left: 10px;
     padding: 50px;
     width: 200px;
     height: 200px;
@@ -200,7 +199,7 @@
     border-radius: 10px;
 }
 .digital-marketing{
-    margin-left: 10px;
+    margin-left: 17px;
     padding: 50px;
     width: 200px;
     height: 200px;
@@ -211,4 +210,162 @@
 }
 .right-container{
     margin-left: 160px;
+}
+
+/* APpointment Section */
+
+.appointment-section{
+    display: flex;
+    background-color: rgb(241, 27, 27);
+    border-radius: 20px;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: auto;
+    margin-top: -80px;
+    color: white;
+}
+.img-nbr{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid white;
+    margin: 15px;
+}
+.apppointment-desc{
+    padding: 10px;
+}
+.apointment-nbr{
+    padding: 10px;
+}
+.btn-appointment{
+    margin-left: 20px;
+    border: none;
+    background-color: white;
+    padding: 15px 30px;
+    font-weight: 400px;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    border-radius: 50px;
+}
+
+/* Blog and News Section */
+
+.blog-news{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.blog-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.blog-desc{
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+}
+
+/* Blog banner section */
+
+.blog-section{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-banner{
+    margin: 40px;
+    width: 320px;
+    height: 410px;
+    background: white;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+}
+.blog-banner-title{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+.blog-banner-desc{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    color: black;
+    margin-top: 5px;
+}
+.blog-img{
+    width: 320px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 14px;
+}
+
+/* Footer section */
+.desc-support{
+    margin-bottom: 12px;
+}
+.whole-footer{
+    width: 78%;
+    height: 36vh;
+    padding: 148px;
+    background-image: url(../asset/image/footer-bg.png), linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+}
+.footer-section{
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.links-supports{
+    color: white;
+}
+.support{
+    margin-bottom: 30px;
+}
+
+/* Left Footer */
+.left-footer{
+}
+.social-icon{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin: 10px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.left-desc{
+    color: white;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+/* Right footer */
+.add-phone-email{
+    display: flex;
+    margin-bottom: 10px;
+}
+.address-icon{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    padding: 1px;
+}
+.inf{
+    margin-left: 5px;
+    margin-bottom: ;
+}
+.end{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 12px;
 }
